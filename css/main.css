@@ -1,0 +1,47 @@
+/* setear CSS*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /**para que no aumente el tamaño de la caja**/
+  color: #303030;
+font-family: 'Raleway', sans-serif;
+}
+
+/**CLASE REUTILIZABLES*/
+
+.text-uppercase{
+  text-transform: uppercase; /**Mayusculas*/
+}
+
+a{
+color: inherit;
+  text-decoration: none;
+
+}
+
+
+ul li {
+display: inline;
+  list-style: none;
+  margin: 5px;
+
+}
+
+.logo-header{
+width: 200px;
+height:
+}
+
+header{
+  position: relative; /*siempre un padre relativo*/
+}
+nav {
+  position: absolute;
+right: 5%;
+top: 50%;
+transform:translateY(-50%); /*transformar la caja (centrar) trasladarse en y subir */
+}
+
+.box-header{
+  display: inline-block;
+}
