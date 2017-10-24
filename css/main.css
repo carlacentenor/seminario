@@ -29,7 +29,7 @@ display: inline;
 
 .logo-header{
 width: 200px;
-height:
+
 }
 
 header{
@@ -44,4 +44,49 @@ transform:translateY(-50%); /*transformar la caja (centrar) trasladarse en y sub
 
 .box-header{
   display: inline-block;
+}
+
+.logo-square {
+  width: 100px;
+}
+
+section{
+  text-align: center;
+}
+
+div {
+box-sizing: inherit;
+  display: inline-block;
+padding: 10px;
+  width: 30%;
+}
+
+[class^="icon-"], [class*=" icon-"] { /*agrandar iconos*/
+  font-size: 40px;
+  transition: 2s;
+
+}
+
+
+footer{
+  background-color: #303030;
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+
+li:hover, [class^="icon-"]:hover, [class*=" icon-"]:hover {
+  color: orange;
+}
+.btn{
+  background: orange;
+  border-style: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: inherit;
+  color: white;
+}
+
+.btn:hover{
+  background-color: #644721;
 }
